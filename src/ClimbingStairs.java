@@ -18,7 +18,7 @@
  */
 public class ClimbingStairs {
     public int climb(int n) {
-        int[] a = new int[65535];
+        int[] a = new int[65];
         a[1] = 1;
         a[0] = 1;
         for (int i = 2; i < n; i++) {
