@@ -18,6 +18,8 @@ import java.util.List;
  *   [-1, 0, 1],
  *   [-1, -1, 2]
  * ]
+ *
+ * 先排序，a + b = -c, 三指针，k指针表示-c，i，j在两端比较值大小，如果a+b比-c大，j左移，小则i右移
  */
 public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {

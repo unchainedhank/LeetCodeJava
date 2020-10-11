@@ -1,3 +1,9 @@
+/**
+ * 判断链表是否有环
+ *
+ *
+ * 快慢指针
+ */
 public class LinkedListCycle {
     class ListNode {
         int val;

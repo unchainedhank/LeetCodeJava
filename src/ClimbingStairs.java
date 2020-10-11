@@ -15,6 +15,8 @@
  * 1.  1 阶 + 1 阶 + 1 阶
  * 2.  1 阶 + 2 阶
  * 3.  2 阶 + 1 阶
+ *
+ * 斐波那契
  */
 public class ClimbingStairs {
     public int climb(int n) {
