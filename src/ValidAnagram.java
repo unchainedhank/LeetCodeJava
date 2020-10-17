@@ -53,6 +53,12 @@ public class ValidAnagram {
         return true;
     }
 
+    public static void main(String[] args) {
+        String s = "abba";
+        String t = "aaab";
+
+        System.out.println(isAnagram2(s, t));
+    }
 
 
 }
