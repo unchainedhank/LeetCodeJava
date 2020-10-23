@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 中序遍历树
+ */
 public class BTInorderTraversal {
 
     class TreeNode {

@@ -1,6 +1,9 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 判断是否是异形词
+ */
 public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {

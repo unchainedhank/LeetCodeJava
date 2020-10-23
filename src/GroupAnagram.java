@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * 判断是否是异形词，并分组
+ */
 public class GroupAnagram {
     public static List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0)
